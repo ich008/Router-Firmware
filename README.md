@@ -9,7 +9,7 @@ D7 flashing
  3. Issue below commands:  
     tftp 0x81000000 [name of your firmware file].bin  
     erase 0x9f020000 +f80000  
-    cp.b 0x81000000 0x9f020000 $filesize  
+    cp.b 0x81000000 0x9f020000 0xf80000  
     reset  
     
 D7 run from RAM:
