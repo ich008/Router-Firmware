@@ -15,7 +15,7 @@ D7 flashing
 D7 run from RAM:
  1. Press any key to stop autobooting and obtain U-Boot CLI access.
  2. Setup ip addresses for U-Boot and your tftp server.
- 3. Issue below commands:
+ 3. Issue below commands:  
 	tftpboot 0x81000000 initramfs-kernel.bin  
 	bootm 0x81000000  
   
